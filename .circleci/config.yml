@@ -11,7 +11,7 @@ jobs:
            git clone https://github.com/predator112/X00T_stock.git -b eas --depth=1 kernel
            cd kernel
            git clone https://github.com/PREDATOR-project/myscripts.git -b master
-           chmod +x myscripts/gcc-setup.sh.sh
+           chmod +x myscripts/gcc-setup.sh
            chmod +x myscripts/X00T_eas_private.sh
            source ./myscripts/gcc-setup.sh
            ./myscripts/X00T_eas_private.sh
